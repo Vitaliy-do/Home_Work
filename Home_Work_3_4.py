@@ -61,7 +61,7 @@ class Mentor:  # Создан родительский класс Mentor.
 
 class Lecturer(Mentor): # Создан дочерный класс Lecturer у которого родительский класс Mentor.
 
-    def middle_rate(self):  # Реализована функция позволяющая ставить оценки студентам.
+    def middle_rate(self):  # Реализован метод позволяющий ставить оценки студентам.
         middle_sum = 0
         for course_grades in self.rates.values():
             course_sum = 0
